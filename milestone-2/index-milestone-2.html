@@ -21,8 +21,12 @@
         </div>
     </header> 
     <!-- Parte principale page -->
-    
+    <div id="app">
+        <div v-for="dischi in albums">
+            {{dischi['title']}}
+        </div>
 
+    </div>
 
     <script src="./js/script.js"></script>
 </body>
