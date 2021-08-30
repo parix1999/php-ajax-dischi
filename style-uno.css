@@ -1,0 +1,14 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container-head {
+    background-color: blue;
+    padding:5px 20px;
+}
+
+.box-logo i {
+    font-size:40px;
+}
