@@ -4,11 +4,23 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #1e2d3b;
+}
+
 .container-head {
-    background-color: blue;
+    background-color: #2e3a46;
     padding:5px 20px;
 }
 
 .box-logo i {
     font-size:40px;
 }
+/* CLASSI MAIN:  */
+
+.container {
+    width: 1000px;
+    margin:30px auto;
+    background-color: red; 
+}
+

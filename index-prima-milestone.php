@@ -25,9 +25,14 @@
     <!-- Pezzo per l'Header: -->
     <?php require_once __DIR__ . "/pezzi/header.php"; ?>
 
-    <!-- Pezzo per il main: -->
-    <?php require_once __DIR__ . "/pezzi/main.php"; ?>
 
+    <!-- Pezzo per il main: -->
+    <!-- Container cards: -->
+    <div class="container">
+        
+        <?php require_once __DIR__ . "/pezzi/main.php"; ?>
+    
+    </div>
 
     
 
