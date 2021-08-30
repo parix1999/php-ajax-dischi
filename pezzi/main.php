@@ -8,7 +8,17 @@
     <div class="box-image">
         <?php echo "<img src='{$item['poster']}' alt='image'>" ?>
     </div>
-    <?php echo "Il titolo è: {$item['title']}"; ?>
+    <div class="titolo">
+        <?php echo "{$item['title']}" ?>
+    </div>
+
+    <div class="autore">
+        <?php echo "{$item['author']}" ?>
+    </div>
+
+    <div class="anno">
+        <?php echo "{$item['year']}" ?>
+    </div>
 </div>
         
     

@@ -24,3 +24,10 @@ body {
     background-color: red; 
 }
 
+.box-image {
+    width:200px;
+}
+
+.box-image img{
+    width:100%;
+}
