@@ -15,7 +15,7 @@ $filtro = array_filter($database, function($v) use ($genere) {
     
 
 });
-var_dump($filtro);
+
 
 // Trasformazione nell'api in json filtered:
-createJson($database);
+createJson($filtro);

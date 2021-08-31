@@ -17,6 +17,14 @@
             <div class="box-logo">
                 <i class="fab fa-spotify"></i>
             </div>
+            <select v-model="selected">
+                <option>Scegli un genere</option>
+                <option>Rock</option>
+                <option>Pop</option>
+                <option>Jazz</option>
+                <option>Metal</option>
+                
+            </select>
     
         </div>
     </header> 
@@ -24,7 +32,7 @@
     <div id="app">
         <div class="container">
             
-            <div  v-for="dischi in albums" class="content">
+            <div  v-for="dischi in filtrato" class="content">
                 
                 <div class="box-image">
                     <img :src="dischi['poster']" alt="img">
