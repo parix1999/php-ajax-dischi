@@ -18,15 +18,18 @@
                 <div class="box-logo">
                     <i class="fab fa-spotify"></i>
                 </div>
-                <select @click="clicca()" v-model="selected">
-                    <option disabled value="">Please select one</option>
-                    <option>Rock</option>
-                    <option>Pop</option>
-                    <option>Jazz</option>
-                    <option>Metal</option>
-                    
-                </select>
-                <span>{{selected}}</span>
+                <div>
+                    <select v-model="selected" @click="clicca()">
+                        <option disabled value="">Please select one</option>
+                        <option>Rock</option>
+                        <option>Pop</option>
+                        <option>Jazz</option>
+                        <option>Metal</option>
+                        
+                    </select>
+                    <span>{{selected}}</span>
+
+                </div>
         
             </div>
         </header> 
