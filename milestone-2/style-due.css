@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    color:white;
 }
 
 body {
@@ -11,10 +12,25 @@ body {
 .container-head {
     background-color: #2e3a46;
     padding:5px 20px;
+    display:flex;
+    align-items: center;
 }
 
 .box-logo i {
     font-size:40px;
+}
+
+.specifica{
+    margin-left: 50px;
+}
+
+.selezione select{
+    color:white;
+    width: 100px;
+    margin-left:20px;
+    background-color: #2e3a46 ;
+    border:none;
+    
 }
 /* CLASSI MAIN:  */
 

@@ -18,9 +18,10 @@
                 <div class="box-logo">
                     <i class="fab fa-spotify"></i>
                 </div>
-                <div>
+                <div class="specifica">Seleziona un genere:</div>
+                <div class="selezione">
                     <select v-model="selected" @click="clicca()" multiple>
-                        
+                        <option @click="tutti()">Tutti</option>
                         <option>Rock</option>
                         <option>Pop</option>
                         <option>Jazz</option>
